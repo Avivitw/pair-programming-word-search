@@ -55,3 +55,4 @@ const wordSearch = (letters, word) => {
 
 
 module.exports = wordSearch;
+//pair programing with Felicia Okta
