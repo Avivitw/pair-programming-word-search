@@ -35,4 +35,13 @@ describe("#wordSearch()", function() {
 
     assert.isTrue(result);
   });
+
+
+it("should return false it's an empty array", function() {
+    const result = wordSearch([], 'SEINFELD')
+
+    assert.isFalse(result);
+  });
+  
+
 });
