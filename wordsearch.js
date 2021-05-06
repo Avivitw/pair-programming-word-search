@@ -34,7 +34,7 @@ const wordSearch = (letters, word) => {
   const horizontalJoin = letters.map(ls => ls.join(''));
 
   //using transpose fn to flip the array vertically
-  const verticalJoined = transpose(letters).join('');
+  const verticalJoined = transpose(letters).map(ls => ls.join(''));
 
   for (l of horizontalJoin) {
     if (l.includes(word)) {
